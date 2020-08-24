@@ -1,0 +1,278 @@
+
+@media (max-width: 1024px) {
+
+
+.inicio {
+    display: none;
+}
+
+.redes { 
+    font-size: 1.5em;
+}
+
+.logoblanco {
+
+    height: 120px; 
+
+}
+
+
+.newsletter2 {
+
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    color: white;
+    text-align: left;
+    margin: 0px;
+    padding: 10px;
+
+
+}
+
+
+.menulista { display: none}
+
+
+.menu 
+{
+
+    display: inline-flex;
+    justify-content: space-between;
+
+   
+ 
+
+}
+
+
+
+.logocomp2 {display:block; margin-right:10px;} 
+
+.iniciar
+{
+display: inline-flex;
+
+}
+
+.iniciar2 {
+
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    color: #222;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+
+
+/*Menu Desplegable*/
+
+.iniciar2:hover {
+
+    background-color: #222;
+    color: white;
+    
+
+}
+
+
+a:link, a:visited, a {
+
+    color: unset;
+    text-decoration: none;
+    background-color: none;
+    
+    
+    
+    }
+
+
+
+    * {
+        margin:0px;
+        padding:0px;
+    }
+    
+
+    .nav {
+        display: block;
+        margin-left: 10px;
+        z-index: 100;
+        
+
+    }
+    
+   ul, ol {
+        list-style:none;
+    }
+
+         
+    .nav li a:hover {
+        background-color: none;
+
+         
+    }
+   
+    .nav li ul {
+        display:none;
+        position:absolute;
+
+    }
+    
+    .nav li:hover > ul {
+        display:block;
+    }
+
+
+
+    .menu2 {
+
+        font-size: 25px;
+        font-family: calibri;
+        line-height: 1.35;
+        font-weight: lighter;
+        color: white;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        margin-right: 10px;
+        letter-spacing: 0.10em;
+        background-color: black;
+
+    }
+
+    .menu2:hover {
+
+        background-color: white;
+        color: #222;
+        
+    
+    }
+
+    .iniciar3 {
+
+        display: inline-flex;
+    }
+
+
+/* Discografia */
+.discofrafia1 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+    .griddiscografia {
+      display: grid;
+      column-gap: 10px;
+      padding: 20px;
+    }
+
+.discofrafia1::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.discofrafia1::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.discofrafia1::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+.discofrafia1::-webkit-scrollbar {
+    width: 8px;     
+    height: 8px;    
+  
+}
+
+/* NAV MUSIC */
+
+    .stream {
+        margin: 10px;
+        width: 300px;
+        text-align: center;
+        
+    }
+    .stream2  {
+        font-size: 13px;  }
+
+    .musica {
+     
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .tourdatespadre {
+        margin-bottom: 10px;
+    }
+
+
+
+/*VIDEOs*/
+
+.videopadre
+{
+    margin: 20px;
+}
+
+.videos
+{
+grid-template-columns: 300px;
+grid-template-rows: 157px 157px;;
+}
+
+
+
+.x {display: none}
+
+.y {display: none}
+
+.z {display: none}
+
+.s {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.t { 
+    grid-column: 1/1;
+    grid-row: 2/2;
+ }
+
+
+/*NEWS*/
+
+.news {
+    
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(6, 1fr);
+
+    
+
+}
+
+.news1 {grid-column: 1/1; grid-row:1/1;}
+.news11 {grid-column: 1/1; grid-row:2/2;}
+.news2 {grid-column: 1/1; grid-row:3/3; margin-top:10px;}
+.news22 {grid-column: 1/1;grid-row:4/4;}
+.news3 {grid-column: 1/1;grid-row:5/5;margin-top:10px;}
+.news33 {grid-column: 1/1;grid-row:6/6;}
+
+.signup {
+    text-align: center;
+}
+}

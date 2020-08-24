@@ -1,0 +1,595 @@
+/** {outline: 1px solid red}*/
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.inicio {
+    
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    z-index: 100;
+
+    
+
+}
+
+.logoblanco {height: 200px;}
+
+.logocomp {margin-left: 10px;}
+
+.iniciar3 
+{ display: none}
+
+.logocomp2 {display: none}
+
+.iniciar
+{
+display: inline-flex;
+margin-right: 10px;
+
+}
+
+.iniciar2 {
+
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    color: #222;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+
+
+
+.iniciar2:hover {
+
+    background-color: #222;
+    color: white;
+    
+
+}
+
+.header {
+    
+    height: 800px;
+    width: 100%;
+    background-image: url("IMG/nin14.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logoblancoT {
+
+    height:200px; 
+
+}
+
+
+.redes {
+
+    color: white;
+    font-size: 2em;
+  
+}
+
+i {
+    margin-right: 10px;
+}
+
+.menu
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li:hover {
+
+    background-color: #222;
+    color: white;
+    
+
+}
+
+.menulista {
+
+    font-size: 25px;
+    font-family: calibri;
+    line-height: 1.35;
+    font-weight: lighter;
+    color: #222;
+    letter-spacing: 0.25em;
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.nav2 {
+    display: none
+}
+
+li {
+    margin-right: 50px
+    
+
+
+}
+
+
+
+a:link, a:visited, a {
+
+    color: unset;
+    text-decoration: none;
+    background-color: none;
+    
+    
+    
+    }
+
+
+
+.padremusic {
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.9)), url(IMG/nin6.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+   /* filter: grayscale(100%);
+    transition: transform .2s;*/
+
+}
+/*
+.padremusic:hover {
+
+    transform: scale(1.5); }*/
+
+.griddiscografia {
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.griddiscografia {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    padding: 50px;
+  }
+
+
+
+  img {
+   
+    filter: grayscale(100%);
+  }
+
+  img:hover {
+
+    filter: none;
+
+  }
+
+.musica {
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.stream
+
+{
+    border: solid 2px black;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    text-align:center;
+  
+
+}
+
+.stream2 {
+
+    font-size: 17px;
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    color: #222;
+    padding: 10px;
+    margin: 0px;
+    
+
+}
+
+.stream2:hover {
+
+    background-color: #222;
+    color: white;
+    
+
+}
+
+.tourdatespadre {
+
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.90)), url(IMG/nin11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+ 
+}
+
+
+/*
+.tourdatesMQ { display: none}
+
+.tourdates {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}  */
+
+  .titletour {
+
+    /*grid-column-start: 1;
+    grid-column-end: -1;*/
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+
+
+  }
+
+
+
+  .tourtex  {
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.25em;
+  }
+
+.tourtex1 {
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+.tickets {
+
+    font-size: 17px;
+    color: white;
+    background-color: #222;
+    font-family: calibri;
+    line-height: 1.35;
+    
+    padding: 2px;
+
+
+}
+
+
+
+.videopadre
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.9));
+    background-size: cover;
+    background-repeat: repeat;
+    filter: grayscale(100%);
+}
+
+.vidchico {
+    height: 150px;
+    width: 300px;
+  
+
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: 500px 300px 300px;
+    grid-template-rows: 157px 157px;
+    grid-column-gap: 20px;
+    grid-row-gap: 7px;
+    padding: 50px;
+    }
+
+.x {
+    grid-column: 1/2;
+}
+
+.y {
+    grid-column: 2/3;
+    grid-row: 2/2;
+
+}
+
+.z {
+    grid-column: 2/3;
+}
+
+.s {
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+
+
+.t { 
+    grid-column: 3/3;
+ }
+
+
+.newspadre {
+    /*height: 600px;
+    width: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.90)), url(IMG/nin12.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+
+
+}
+
+.newstitle {
+
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+
+  
+
+  }
+
+.newsletter {    
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+
+
+
+
+
+}
+
+
+.news {
+
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-template-rows: repeat(2, 230px);
+    grid-column-gap: 50px;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+
+    .news1 {
+        grid-column: 1/1;
+        background-image: url(IMG/NEWS/watchmen-logo.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .news11 {
+        grid-column: 1/1;
+        grid-row: 2/2;
+        background-color: rgba(0, 0, 0, 0.90);
+
+    }    
+
+
+    .news2 {
+        grid-column: 2/2;
+        background-image: url(IMG/NEWS/ghost.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .news22 {
+        grid-column: 2/3;
+        grid-row: 2/2;
+        background-color: rgba(0, 0, 0, 0.90);
+    }    
+
+
+    .news3 {
+        grid-column: 3/3;
+        background-image: url(IMG/NEWS/waves.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .news33 {
+        grid-column: 3/3;
+        grid-row: 2/2;
+        background-color: rgba(0, 0, 0, 0.90);
+    }    
+
+
+
+    .news1, .news2, .news3 {
+   
+        filter: grayscale(100%);
+      }
+    
+      .news1:hover, .news2:hover, .news3:hover {
+    
+        filter: none;
+    
+
+      }
+
+
+      .news11, .news22, .news33 {
+          align-content: center;
+    
+      }
+
+.newsletter1 {    
+    font-size: 15px;
+    font-family: calibri;
+    font-weight: lighter;
+    color: white;
+    text-align: left;
+    padding: 10px;
+
+
+}
+
+.Mailinglist {
+
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.signup {
+
+    font-size: 15px;
+    font-family: calibri;
+    line-height: 1.35;
+    font-weight: lighter;
+    color: #222;
+    letter-spacing: 0.25em;
+    margin: 0px;
+    padding: 2px;
+
+
+}
+
+form {
+
+    margin: 0px;
+   
+}
+
+
+.boton {
+
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    font-family: calibri;
+    font-weight: lighter;
+    letter-spacing: 0.25em;
+    
+}
+
+footer {
+
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+.footer2 {
+
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    color: #222;
+    letter-spacing: 0.25em;
+    margin: 0px;
+}
+
+.footer1 {
+
+    display: inline-flex;
+
+}
+
+.redesfooter {
+
+    color: black;
+    margin-left: 5px;
+     
+}
