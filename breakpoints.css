@@ -232,7 +232,8 @@ a:link, a:visited, a {
 .videos
 {
 grid-template-columns: 300px;
-grid-template-rows: 157px 157px;;
+grid-template-rows: 157px 157px;
+padding: 0px;
 }
 
 

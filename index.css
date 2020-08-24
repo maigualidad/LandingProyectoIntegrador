@@ -1,4 +1,4 @@
-* {outline: 1px solid red}
+/** {outline: 1px solid red}*/
 
 body
 {
@@ -267,20 +267,11 @@ a:link, a:visited, a {
 }
 
 
-/*
-.tourdatesMQ { display: none}
 
-.tourdates {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 2fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    column-gap: 20px;
-}  */
 
   .titletour {
 
-    /*grid-column-start: 1;
-    grid-column-end: -1;*/
+
     font-size: 25px;
     font-family: calibri;
     font-weight: bold;
