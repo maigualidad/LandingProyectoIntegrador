@@ -170,6 +170,7 @@ a:link, a:visited, a {
     white-space: nowrap;
     width: 100%;
     -webkit-overflow-scrolling: touch;
+    padding: 0px;
 }
 
     .griddiscografia {
@@ -260,6 +261,7 @@ grid-template-rows: 157px 157px;;
     display: grid;
     grid-template-columns: 350px;
     grid-template-rows: repeat(6, 1fr);
+    padding: 5px;
 
     
 

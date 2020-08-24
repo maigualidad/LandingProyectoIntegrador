@@ -167,14 +167,10 @@ a:link, a:visited, a {
     background-repeat: repeat;
     -webkit-transition: background-image 0.2s ease-in-out;
     transition: background-image 0.2s ease-in-out;
-   /* filter: grayscale(100%);
-    transition: transform .2s;*/
+
 
 }
-/*
-.padremusic:hover {
 
-    transform: scale(1.5); }*/
 
 .griddiscografia {
 
@@ -350,7 +346,7 @@ a:link, a:visited, a {
 
 .videos {
     display: grid;
-    grid-template-columns: 500px 300px 300px;
+    grid-template-columns: 500px minmax(300px, 1fr) minmax(300px, 1fr);
     grid-template-rows: 157px 157px;
     grid-column-gap: 20px;
     grid-row-gap: 7px;
@@ -400,10 +396,12 @@ a:link, a:visited, a {
 
 .newstitle {
 
-    height: 40px;
-    width: 100%;
+
     padding: 0px;
     margin:0px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
 
   
 
@@ -417,6 +415,7 @@ a:link, a:visited, a {
     color: white;
     text-align: left;
     margin-left: 10px;
+    padding: 0px;
 
 
 
@@ -429,7 +428,7 @@ a:link, a:visited, a {
 
     display: grid;
     grid-template-columns: repeat(3, 0.3fr);
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px minmax(250px, 1fr);
     grid-column-gap: 50px;
     justify-content: center;
     padding: 50px;
