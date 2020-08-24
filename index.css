@@ -451,7 +451,7 @@ a:link, a:visited, a {
     .news11 {
         grid-column: 1/1;
         grid-row: 2/2;
-        background-color: rgba(0, 0, 0, 0.90);
+        background-color: rgba(0, 0, 0, 0.678);
 
     }    
 
@@ -466,7 +466,7 @@ a:link, a:visited, a {
     .news22 {
         grid-column: 2/3;
         grid-row: 2/2;
-        background-color: rgba(0, 0, 0, 0.90);
+        background-color: rgba(0, 0, 0, 0.678);
     }    
 
 
@@ -481,7 +481,7 @@ a:link, a:visited, a {
     .news33 {
         grid-column: 3/3;
         grid-row: 2/2;
-        background-color: rgba(0, 0, 0, 0.90);
+        background-color: rgba(0, 0, 0, 0.678);
     }    
 
 
