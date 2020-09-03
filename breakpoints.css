@@ -209,7 +209,7 @@ a:link, a:visited, a {
         margin-bottom: 10px;
         margin-left: 0px;
         margin-right: 0px;
-        width: 300px;
+        width: 290px;
         text-align: center;
         padding: 0px;
         
@@ -267,9 +267,10 @@ padding: 0px;
 .news {
     
     display: grid;
-    grid-template-columns: 310px;
+    grid-template-columns: 300px;
     grid-template-rows: repeat(6, 1fr);
     padding: 5px;
+    margin: 0px;
 
     
 
